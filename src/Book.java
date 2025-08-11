@@ -9,6 +9,10 @@ public class Book {
         this.yearOfPublication = yearOfPublication;
     }
 
+    public String toString() {
+        return "Название книги - "+this.title+ ", автор книги - "+ this.author+ ", год выпуска - "+ this.yearOfPublication;
+    }
+
 
     public String getTitle() {
         return title;
@@ -20,5 +24,9 @@ public class Book {
 
     public int getYearOfPublication() {
         return yearOfPublication;
+    }
+
+    public void setYearOfPublication(int yearOfPublication) {
+        this.yearOfPublication = yearOfPublication;
     }
 }
