@@ -8,5 +8,9 @@ public class Main {
         Author authorDubrovskiy = new Author("Алесандр", "Пушкин");
         Book dubrovskiy = new Book("Дубровский", authorDubrovskiy.getNameAuthor()+" "+authorDubrovskiy.getSurnameAuthor(), 1833);
         System.out.println("Название книги - "+dubrovskiy.getTitle()+ ", автор книги - "+ dubrovskiy.getAuthor()+ ", год выпуска - "+ dubrovskiy.getYearOfPublication());
+        buratino.setYearOfPublication(1833);
+        System.out.println("Название книги - "+buratino.getTitle()+ ", автор книги - "+ buratino.getAuthor()+ ", год выпуска - "+ buratino.getYearOfPublication());
+
     }
+
 }
