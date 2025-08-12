@@ -12,7 +12,7 @@ public class Main {
         buratino.setYearOfPublication(1833);
         System.out.println(buratino);
 
-        System.out.println(authorBuratino);
+
 
     }
 
